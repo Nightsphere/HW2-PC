@@ -5,15 +5,15 @@
 ###### How to run this program:
     1. Type in the command:
     
-          `gradle build`
+          gradle build
           
     2. Now to get to the directory to start the server, type:
     
-          `cd build/classes/java/main/
+          cd build/classes/java/main/
           
     3. Now that you're here, start the server by typing:
     
-          `java cs455.scaling.server.Server 41350 10 5 10`
+          java cs455.scaling.server.Server 41350 10 5 10
           
     4. The server is now running. To start the clients, open a new terminal and get back to the original
     directory where you untar'd the project. In here, you'll see a file named start.sh. This is the start 
@@ -23,7 +23,7 @@
     
     5. After changing any variables you need, run the script by typing:
     
-          `./start.sh 10`
+          ./start.sh 10
           
     This runs the 10 computers in the machine_list file 10 times, giving you 100 clients. Sometimes 11 or
     12 is needed as the argument to make sure you actually get at least 100 clients connected to the
